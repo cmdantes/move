@@ -32,3 +32,14 @@ def GoodPair():
             if nums[i] == nums[j]:
                 good_pair +=1
     print(good_pair)
+#Kids With the Greatest Number of Candies
+def KidsWIthGreatesNumOfCandies():
+    candies = [2,3,4,5,1,2]
+    extraCandies = 3
+    rist = list()
+    for i in candies:
+        if i + extraCandies >= extraCandies:
+            rist.append("true")
+        else:
+            rist.append("false")
+    print(rist)
